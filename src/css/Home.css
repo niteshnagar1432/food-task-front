@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.home-area-box{
+    width: 100%;
+    height: calc(100vh - 11vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home-area-box h1{
+    font-size: 82px;
+    text-align: center;
+    max-width: 80%;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.home-area-box a{
+    padding: 15px 20px;
+    background-color: #3E51B4;
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 3vh;
+    text-transform: uppercase;
+    border-radius: 5px;
+}

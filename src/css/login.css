@@ -1,0 +1,38 @@
+.login-area {
+  width: 100vw;
+  height: calc(100vh - 11vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-area-semi {
+  width: auto;
+  height: 60%;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  padding: 10px 70px;
+  box-shadow: 0px 3px 33px rgba(164, 162, 162, 0.42);
+}
+.login-area-semi input {
+    padding: 7px 20px;
+    border-radius: 7px;
+    border: 1px solid #3E51B4;
+    
+}
+.login-area-semi input::placeholder {
+    color: #3E51B4;
+}
+
+.login-area-semi button{
+    padding: 7px 20px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: #3E51B4;
+    color: white;
+    cursor: pointer;
+}
